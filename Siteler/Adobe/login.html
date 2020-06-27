@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html data-placeholder-focus="false" class="ie ie8 lt-ie9 has-dob-explanation en us" data-pagename="login" lang="en"> <![endif]-->
+<!--[if IE 9]> <html data-placeholder-focus="false" class="ie ie9 has-dob-explanation en us" data-pagename="login" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html data-placeholder-focus="false" class="has-dob-explanation en us history svg cssanimations wf-adobeclean-n4-active wf-adobeclean-n7-active wf-adobeclean-n3-active wf-active wf-inactive" data-pagename="login" lang="en"><!--<![endif]--><head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+        <meta name="mswebdialog-newwindowurl" content="*">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <script src="https://use.typekit.net/ecr2zvs.js" async=""></script><script>
+    window.marketingtech = {
+        adobe: {
+            launch: {
+                environment: 'production'
+            }
+        }
+    };
+</script>
+<script src="https://wwwimages2.adobe.com/etc/beagle/public/globalnav/adobe-privacy/latest/privacy.min.js"></script><script type="text/javascript" src="//c.evidon.com/sitenotice/evidon-sitenotice-tag.js" async="" id="evidon-notice"></script><script type="text/javascript" src="//c.evidon.com/geo/country.js" async="" id="evidon-location"></script><script type="text/javascript" src="//c.evidon.com/sitenotice/414/snthemes.js" async="" id="evidon-themes"></script><script type="text/javascript" src="//c.evidon.com/sitenotice/414/adobe/settings.js" async="" id="evidon-settings"></script>
+        <script src="https://www.adobe.com/marketingtech/main.min.js"></script>
+    <style>
+    div.evidon-banner {display: none !important;}
+</style>
+
+<script>
+window.launchConfig = {
+    analyticsAccount: 'adbadobenonacdcprod,adbims',
+    appCodeValue: JSON.parse('{\"ac\":\"IMS\",\"av\":\"1.50.7-42\",\"di\":null,\"mc\":null,\"pl\":null}'),
+    clientId: 'SunbreakWebUI1',
+    locale: 'en_US',
+    pageName: 'onLoad_SignInForm',
+    touaName: ''
+}
+</script>
+<script>
+    (function(d) {
+        'use strict';
+
+        var h = d.documentElement;
+
+        
+
+        // Default: Latin Extended
+        var defaultKit = 'znu8cfp';
+        
+        var language = h.getAttribute('lang') || 'ro';
+
+        
+        var kitLanguages = {
+            // Latin
+            'ecr2zvs': [ 'da', 'de', 'en', 'es', 'it', 'nb', 'pt', 'sv' ],
+            // Latin-extended
+            'znu8cfp': [ 'bg', 'cs', 'et', 'fi', 'fr', 'hr', 'hu', 'lt', 'lv', 'nl', 'pl', 'ro', 'ru', 'sk', 'sl', 'sr', 'tr', 'uk' ],
+
+            
+            // Chinese: traditional & simplified
+            'hlx1mlm': ['zh'],
+            // Japanese
+            'bzy1cfu': ['ja'],
+            // Korean
+            'tra0jgq': ['ko']
+        };
+
+        var getLanguageKit = function(language) {
+            for (var kit in kitLanguages) {
+                if (kitLanguages.hasOwnProperty(kit)) {
+                    
+                    for (var lang in kitLanguages[kit]) {
+                        if (kitLanguages[kit][lang] === language) {
+                            return kit;
+                        }
+                    }
+                }
+            }
+
+            return defaultKit;
+        };
+
+        var triggerEvent = function (eventName) {
+            var event = document.createEvent('Event');
+            event.initEvent(eventName, true, true);
+            document.dispatchEvent(event);
+        }
+
+        var config = {
+            // Events
+            active: function () {
+                triggerEvent('TypekitActive');
+            },
+            inactive: function () {
+                triggerEvent('TypekitInactive');
+            },
+            // Settings
+            async: true,
+            kitId: getLanguageKit(language),
+            scriptTimeout: 3000
+        };
+
+        var hideSpinner = function() {
+            window.clearTimeout(t);
+            var html = document.documentElement;
+            html.className = html.className.replace(/\bwf-loading\b/g, '')+' wf-inactive';
+        };
+
+        var t = setTimeout(hideSpinner, config.scriptTimeout);
+
+        var loadTypekit = function() {
+            var s = d.getElementsByTagName('script')[0];
+            var html = document.documentElement;
+            var tk = d.createElement('script');
+
+            html.className += ' wf-loading';
+
+            tk.src = 'https://use.typekit.net/'+config.kitId+'.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange= initTypeKit;
+            
+            tk.onerror = hideSpinner;
+
+            s.parentNode.insertBefore(tk,s);
+        };
+
+        var typekitInitialized = false;
+
+        var initTypeKit = function() {
+            var a = this.readyState;
+
+            if(typekitInitialized||a&&a!='complete'&&a!='loaded')return;
+
+            typekitInitialized = true;
+
+            
+            try{Typekit.load(config);}catch(e){}
+        };
+
+        
+        if (document.addEventListener) {
+            document.addEventListener("DOMContentLoaded", loadTypekit, false);
+        
+        } else if (document.attachEvent) {
+            document.attachEvent("onreadystatechange", function() {
+                if (document.readyState === "complete" ) {
+                    loadTypekit();
+                }
+            });
+        }
+    })(document);
+</script>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+        <title>Sign in - Adobe ID</title>
+
+        <link rel="stylesheet" type="text/css" href="https://static.adobelogin.com/renga-idprovider/resources/60550808d7d722ea186a935459f7234f/spectrum/css/head.css">
+    <script>var special_day_char = "";</script>
+
+        <!--[if lte IE 8]>
+            <script src="https://static.adobelogin.com/renga-idprovider/resources/60550808d7d722ea186a935459f7234f/spectrum/script/ie8.js"></script>
+    <![endif]-->
+        <script src="https://static.adobelogin.com/renga-idprovider/resources/60550808d7d722ea186a935459f7234f/spectrum/script/spectrum_head.js"></script><style type="text/css">.tk-adobe-clean{font-family:"adobe-clean",sans-serif;}</style><style type="text/css">@font-face{font-family:tk-adobe-clean-n4;src:url(https://use.typekit.net/af/cb695f/000000000000000000017701/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/cb695f/000000000000000000017701/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/cb695f/000000000000000000017701/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:tk-adobe-clean-n7;src:url(https://use.typekit.net/af/eaf09c/000000000000000000017703/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/eaf09c/000000000000000000017703/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/eaf09c/000000000000000000017703/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:tk-adobe-clean-n3;src:url(https://use.typekit.net/af/c2b3ac/0000000000000000000176ff/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/c2b3ac/0000000000000000000176ff/27/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/c2b3ac/0000000000000000000176ff/27/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;}</style><style type="text/css">@font-face{font-family:adobe-clean;src:url(https://use.typekit.net/af/cb695f/000000000000000000017701/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/cb695f/000000000000000000017701/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/cb695f/000000000000000000017701/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:adobe-clean;src:url(https://use.typekit.net/af/eaf09c/000000000000000000017703/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/eaf09c/000000000000000000017703/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/eaf09c/000000000000000000017703/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:adobe-clean;src:url(https://use.typekit.net/af/c2b3ac/0000000000000000000176ff/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/c2b3ac/0000000000000000000176ff/27/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/c2b3ac/0000000000000000000176ff/27/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;}</style>
+    </head>
+
+    <body ontouchstart="" id="adobesusi" class="capslock-unknown">
+        <div id="spinner_overlay" class="overlay">
+            <div id="squarespinner_template" class="overlay-spinner"></div>
+        </div>
+
+        <div class="container " role="main" id="">
+            <div class="page-header">
+    <div id="idp-flow-header" class="idp-flow-logo">
+        <div class="idp-flow-logo-image"></div>
+        <span id="idp-flow-individual-text" class="idp-flow-logo-text"></span>
+    </div>
+</div>
+<div id="adobeid_view" class="view">
+                <div class="row mod-title-row">
+    <h1 class="page-action">
+                For your protection, please verify your identity.</h1>
+        </div>
+<div id="indicatorPanel" class="indicatorPanel mod-hidden">
+    <p class="row mod-top-spaced mod-bot-spaced"><strong id="indicatorPanel-Email"></strong></p>
+
+    <p class="row mod-top-spaced mod-bot-spaced">We are taking you to sign in with Facebook.</p>
+
+    <div class="inline-spinner">
+        <div class="inline-spinner-element"></div>
+        <div class="inline-spinner-element mod-second"></div>
+        <div class="inline-spinner-element mod-third"></div>
+    </div>
+
+    <div class="row mod-top-spaced mod-bot-spaced">
+        <button id="indicatorPanel-ContinueButton" class="indicatorPanel-ContinueButton button" type="button"><span class="icon icon-facebook"></span> <span>Continue to Facebook</span></button>
+    </div>
+</div>
+<form id="adobeid_signin" class="loginform" method="post" action="login.php" data-component="spinner" novalidate="novalidate">
+        <input id="adobeid_callback" name="callback" value="https://ims-na1.adobelogin.com/ims/adobeid/SunbreakWebUI1/AdobeID/token?redirect_uri=https%3A%2F%2Faccounts.adobe.com%2F%23from_ims%3Dtrue%26old_hash%3D%26api%3Dauthorize%26reauth%3Dforce&amp;scope=AdobeID%2Copenid%2Csunbreak%2Cacct_mgmt_webui%2Cgnav%2Cadditional_info.account_type%2Csao.cce_private%2Ccreative_cloud%2Cread_countries_regions%2Cupdate_profile.password%2Cadditional_info.roles%2Cupdate_profile.optionalAgreements%2Cupdate_profile.change_password%2Cadditional_info.social%2Csocial.link%2Cunlink_social_account%2Cadmin_slo%2Creauthenticated" type="hidden">
+    <input id="adobeid_client_id" name="client_id" value="SunbreakWebUI1" type="hidden">
+    <input id="adobeid_denied_callback" name="denied_callback" value="https://ims-na1.adobelogin.com/ims/denied/SunbreakWebUI1?redirect_uri=https%3A%2F%2Faccounts.adobe.com%2F%23from_ims%3Dtrue%26old_hash%3D%26api%3Dauthorize%26reauth%3Dforce&amp;response_type=token" type="hidden">
+    <input id="adobeid_display" name="display" value="web_v2" type="hidden">
+    <input id="adobeid_flow" name="flow" value="true" type="hidden">
+    <input id="adobeid_flow_type" name="flow_type" value="token" type="hidden">
+    <input id="adobeid_idp_flow_type" name="idp_flow_type" value="login" type="hidden">
+    <input id="adobeid_locale" name="locale" value="en_US" type="hidden">
+    <input id="adobeid_page_name" name="page_name" value="onLoad_SignInForm" type="hidden">
+    <input id="adobeid_reauthenticate" name="reauthenticate" value="force" type="hidden">
+    <input id="adobeid_relay" name="relay" value="ddf39b99-b9ba-4e0c-af20-f0aa6bd69144" type="hidden">
+    <input id="adobeid_scope" name="scope" value="AdobeID,openid,sunbreak,acct_mgmt_webui,gnav,additional_info.account_type,sao.cce_private,creative_cloud,read_countries_regions,update_profile.password,additional_info.roles,update_profile.optionalAgreements,update_profile.change_password,additional_info.social,social.link,unlink_soc
